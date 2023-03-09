@@ -20,39 +20,97 @@
           <ul class="nav__list">
             <li class="nav__item">
               <a href="#home" class="nav__link">
+                <i class="ri-home-line"></i>
                 <span>Home</span>
               </a>
             </li>
 
             <li class="nav__item">
-              <a href="" class="nav__link">
-                <span>Span</span>
+              <a href="#new" class="nav__link">
+                <i class="ri-price-tag-3-line"></i>
+                <span>New</span>
               </a>
             </li>
 
             <li class="nav__item">
-              <a href="" class="nav__link">
-                <span>lol</span>
+              <a href="#collection" class="nav__link">
+                <i class="ri-compass-line"></i>
+                <span>Collection</span>
               </a>
             </li>
 
             <li class="nav__item">
-              <a href="" class="nav__link">
-                <span>whart the fuck is happening</span>
-              </a>
-            </li>
-
-            <li class="nav__item">
-              <a href="" class="nav__link">
-                <span></span>
+              <a href="#products" class="nav__link">
+                <i class="ri-t-shirt-line"></i>
+                <span>Prodcuts</span>
               </a>
             </li>
           </ul>
         </div>
+
+        <i class="ri-moon-line"></i>
       </nav>
     </header>
 
-    <main></main>
+    <main class="main">
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__data">
+            <h1 class="home__title">New Clothing <br />Collection</h1>
+            <p class="home__description">
+              The new collection of clothing from <br />
+              the best brands this year.
+            </p>
+            <a href="#new" class="button__link">
+              Explore <i class="ri-arrow-right-line"></i>
+            </a>
+          </div>
+
+          <div class="home__images">
+            <img src=".//assets/img/home1.png" alt="home image" />
+            <img src=".//assets/img/home2.png" alt="home image" />
+          </div>
+        </div>
+      </section>
+      <section class="new section" id="new">
+        <h2 class="section__title">New Categories</h2>
+
+        <div class="new__container container grid">
+          <article class="new__card">
+            <img src="./assets/img/new1.png" alt="" class="new__img" />
+            <a href="#" class="new__link">
+              <div class="new__data">
+                <h2 class="new__title">Hoodie & Sweatshirt</h2>
+                <span>Winter Collection</span>
+              </div>
+              <i class="ri-arrow-right-line"></i>
+            </a>
+          </article>
+          <article class="new__card">
+            <img src="./assets/img/new2.png" alt="" class="new__img" />
+            <a href="#" class="new__link">
+              <div class="new__data">
+                <h2 class="new__title">Pants & Jackets</h2>
+                <span>Winter Collection</span>
+              </div>
+              <i class="ri-arrow-right-line"></i>
+            </a>
+          </article>
+          <article class="new__card">
+            <img src="./assets/img/new3.png" alt="" class="new__img" />
+            <a href="#" class="new__link">
+              <div class="new__data">
+                <h2 class="new__title">Coats & Coat Sets</h2>
+                <span>Winter Collection</span>
+              </div>
+              <i class="ri-arrow-right-line"></i>
+            </a>
+          </article>
+        </div>
+      </section>
+      <section class="collection section" id="collection"></section>
+      <section class="products section" id="products"></section>
+    </main>
 
     <footer class="footer section"></footer>
   </body>
